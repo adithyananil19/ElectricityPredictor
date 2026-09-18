@@ -9,7 +9,7 @@ model = joblib.load(model_path)
 
 # App title
 st.title("Electricity Bill Predictor")
-st.write("Enter the number of units consumed by AC to predict the electricity bill.")
+st.write("Enter the number of units consumed by AC and Fan to predict the electricity bill.")
 
 # User input
 units_ac = st.number_input(
