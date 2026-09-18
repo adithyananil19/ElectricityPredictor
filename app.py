@@ -14,8 +14,8 @@ st.write("Enter the number of units consumed by AC to predict the electricity bi
 # User input
 units_consumed = st.number_input(
     "Units consumed by AC",
-    min_value=0.0,
-    step=0.5
+    min_value=1.0,
+    step=1.0
 )
 
 # Prediction
