@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib
+
 from pathlib import Path
 
 model_path = Path(__file__).parent / "electric_bill_ac_fan_model.pkl"
