@@ -19,7 +19,7 @@ units_ac = st.number_input(
 )
 units_fan = st.number_input(
     "Units consumed by Fan",
-    min_value=10.0,
+    min_value=20.0,
     step=1.0
 )
 # Prediction
