@@ -15,8 +15,7 @@ if st.button("Predict"):
 	input_data = pd.DataFrame({"AC_Units": [units_consumed]})
 	prediction = model.predict(input_data)[0]
 	probability = model.predict_proba(input_data)[0][int(prediction)]
-	st.success(f"Predicted Electricity Bill : {prediction:.2f}")
-    print(f"Prediction: {prediction}, Probability: {probability:.1%}")
+	st.success(f"Predicted Electricity Bill : {prediction:.2f}")S
 
 	# if prediction == 1:
 	# 	st.success(f"Predicted result: Pass ({probability:.1%} confidence)")
